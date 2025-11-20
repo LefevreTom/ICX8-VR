@@ -1,5 +1,13 @@
 {
   "dependencies": {
+    "com.tnd.upscaling": {
+      "version": "file:com.tnd.upscaling",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      }
+    },
     "com.unity.ai.navigation": {
       "version": "2.0.9",
       "depth": 0,
@@ -133,6 +141,13 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.package-validation-suite": {
       "version": "0.22.0-preview",
       "depth": 0,
@@ -148,6 +163,15 @@
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
+    },
+    "com.unity.postprocessing": {
+      "version": "file:com.unity.postprocessing",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0",
+        "com.tnd.upscaling": "1.0.7"
+      }
     },
     "com.unity.render-pipelines.core": {
       "version": "17.0.4",
@@ -339,7 +363,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.interaction.toolkit": {
-      "version": "3.2.1",
+      "version": "3.2.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
